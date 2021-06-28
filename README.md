@@ -10,4 +10,22 @@ We evaluate the performance of these models and suggest if they should be used t
 Here are the results from the 6 machine learning models:
 
 ### SMOTEEN:
+![](https://github.com/MuddassirR/Credit_Risk_Analysis/blob/main/r4.png)
+
+### SMOTE:
 ![](https://github.com/MuddassirR/Credit_Risk_Analysis/blob/main/r1.png)
+
+### RandomOverSample:
+![](https://github.com/MuddassirR/Credit_Risk_Analysis/blob/main/r2.png)
+
+### ClusterCentroids:
+![](https://github.com/MuddassirR/Credit_Risk_Analysis/blob/main/r3.png)
+
+### EasyEnsembleClassifier:
+![](https://github.com/MuddassirR/Credit_Risk_Analysis/blob/main/r6.png)
+
+### BalancedRandomForestClassifier:
+![](https://github.com/MuddassirR/Credit_Risk_Analysis/blob/main/r5.png)
+
+## Summary
+It appears that the EasyEnsembleClassifier is the most effective as it had more improvement on the sensitivity of the high risk credits. The EasyEnsembleClassifier model shows a recall of 92% so it detects almost all high risk credit. However, since all the models have a low precision, a lot of low risk credits are still falsely detected as high risk which could result in the bank missing out on business oportunities.
